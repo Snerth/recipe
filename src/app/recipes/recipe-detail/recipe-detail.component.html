@@ -1,0 +1,35 @@
+<div>
+    <div>
+        <img [src]="recipe.imagePath" alt="{{ recipe.name }}" />
+    </div>
+</div>
+<div>
+    <div>
+        <h1>{{ recipe.name }}</h1>
+    </div>
+</div>
+<div>
+    <div>
+        <div>
+            
+                <div appDropdown class="recipe-detail-dropdown">MANAGE RECIPE<span></span>
+                    <ul>
+                    <li><a href="#">Add ingredients to shopping list</a></li>
+                <li><a href="#">Edit recipe</a></li>
+                <li><a href="#">Delete recipe</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div>
+    <div>
+        {{ recipe.description }}
+    </div>
+</div>
+<div>
+    <div>
+        Ingredients
+    </div>
+</div>

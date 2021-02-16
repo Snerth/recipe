@@ -1,0 +1,34 @@
+<div>
+    <div>
+        <form>
+            <div>
+                <div>
+                    <label for="name">Name</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        #nameInput
+                    />
+                </div>
+                <div>
+                    <label for="amount">Amount</label>
+                    <input 
+                        type="number" 
+                        id="amount"
+                        #amountInput
+                    />
+                </div>
+            </div>
+            <div>
+                <div>
+                    <button 
+                        type="submit"
+                        (click)="onAddItem()"
+                    >Add</button>
+                    <button type="button">Delete</button>
+                    <button type="button">Clear</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>>

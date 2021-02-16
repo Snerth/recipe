@@ -1,0 +1,8 @@
+.recipe-detail-dropdown ul {
+    border: 1px solid red;
+    display: none;
+}
+
+.open ul {
+    display: block;
+}

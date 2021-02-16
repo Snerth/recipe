@@ -1,0 +1,22 @@
+<nav>
+    <div>
+      <div>
+        <a href="#">Recipe Book</a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#" (click)="onSelect('recipe')">Recipes</a></li>
+          <li><a href="#" (click)="onSelect('shopping-list')">Shopping List</a></li>
+        </ul>
+        <ul>
+          <li appDropdown class="header-dropdown">
+              <a href="#">Manage<span></span></a>
+            <ul>
+              <li><a href="#">Save Data</a></li>
+              <li><a href="#">Fetch Data</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
